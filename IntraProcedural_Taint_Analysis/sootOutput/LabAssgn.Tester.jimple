@@ -1,0 +1,31 @@
+public class LabAssgn.Tester extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        LabAssgn.Tester this;
+
+        this := @this: LabAssgn.Tester;
+        specialinvoke this.<java.lang.Object: void <init>()>();
+        return;
+    }
+
+    static int foo()
+    {
+        java.util.Scanner $r0, sc;
+        java.io.InputStream $r1;
+        int a, b, z, $i0;
+        byte c;
+
+        $r0 = new java.util.Scanner;
+        $r1 = <java.lang.System: java.io.InputStream in>;
+        specialinvoke $r0.<java.util.Scanner: void <init>(java.io.InputStream)>($r1);
+        sc = $r0;
+        a = virtualinvoke sc.<java.util.Scanner: int nextInt()>();
+        b = virtualinvoke sc.<java.util.Scanner: int nextInt()>();
+        c = 10;
+        $i0 = a + b;
+        z = $i0 + c;
+        return z;
+    }
+}
